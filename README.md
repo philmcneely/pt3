@@ -1,11 +1,10 @@
-Cucumber Boilerplate
+FS
 ====================
 
-[![Test](https://github.com/webdriverio/cucumber-boilerplate/actions/workflows/test.yaml/badge.svg)](https://github.com/webdriverio/cucumber-boilerplate/actions/workflows/test.yaml)
 
 ***
 
-Boilerplate project to run WebdriverIO (v7) tests with [Cucumber](https://cucumber.io/) and brings **true** [BDD](http://en.wikipedia.org/wiki/Behavior-driven_development) to JavaScript. Instead of writing complicated test code that only developers can understand, Cucumber maps an ordinary language to code and allows to start with the test process in the early stages of your product development.
+FS project to run WebdriverIO (v7) tests with [Cucumber](https://cucumber.io/)
 
 ## Requirements
 
@@ -20,32 +19,10 @@ Also this project doesn't cover setting up a proper test environment. You need t
 
 Choose one of the following options:
 
-1. Download the latest stable release [here](https://github.com/webdriverio/cucumber-boilerplate/archive/main.zip) or clone the git repo — `git clone https://github.com/webdriverio/cucumber-boilerplate.git`
-
-2. Then:
-- Copy the files to your project into a directory like `/integrationtests` (note the hidden files!)
-
-3. Clean the project (Optional):
-- *On OSX/Linux:*
--- Run `yarn run clean`
-
-- *On Windows:*
--- Remove the directories `/.git`, `/.github`, `/demo-app` & `/test`
--- Remove the files `.travis.yml`, `jest.json` & `wdio.BUILD.conf.js`
--- Remove all the demo features from the `/src/features` directory
-
-4. Install the dependencies (`yarn install`)
+1. Clone the git repo — `git clone https://github.com/philmcneely/pt3.git`
+2. Install the dependencies (`yarn install`) or (`npm install`)
 
 Now you are ready to write your own features.
-
-## Features
-
-- Super simple setup
-- Full integration with [WebdriverIO](http://webdriver.io/)
-- Over 150 predefined steps that cover almost everything you need, you can start writing tests right away
-- Easy integration with cloud services like [Sauce Labs](https://saucelabs.com/)
-- Integration of WebdriverIO's Multiremote functionality
-- Easy to run tests in parallel
 
 # How to write a test
 
