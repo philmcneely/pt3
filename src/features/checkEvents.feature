@@ -28,12 +28,12 @@ Feature: Check Events
     Scenario: Entering first name triggers event 18
         When I set "first" to the inputfield "#billing-firstname"
         Then I expect that an event is recorded
-        And I expect that event "18" is recorded with args "first"
+        And I expect that event "18" is recorded with args "￿5"
 
     Scenario: Entering last name triggers event 18
         When I set "last" to the inputfield "#billing-lastname"
         Then I expect that an event is recorded
-        And I expect that event "18" is recorded with args "last"
+        And I expect that event "18" is recorded with args "￿4"
 
     Scenario: Entering street address name triggers event 18 with obfuscation
         When I set "111 main" to the inputfield "#billing-address-1"
